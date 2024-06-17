@@ -31,4 +31,21 @@ Flat files
 
 Object-oriented databases (OO)
 - work in the framework of real programming languages (Java / C++)
+
+----------------
+## Module 4 - Database Design
+
+Schema - `Organization of information and its relatinships`
+
+Database Schema - `Collection of data structures within a database`
+- In SQLServer, Schema is a collection of individual, but related, components (tables / fields / datatypes / keys)
+- In PostgresSQL, Schema is a namespace with named databse objects (views / indexes / functions)
+- In Oracle, Schema is assigned to each user
+
+Advantages of a database schema
+- Management (provide logical grouping for objects)
+- Accessibility (enable greater accessibility to objects)
+- Security (offer a range of useful security features)
+- Ownership (Permit transfer of ownership between users)
 - 
+
