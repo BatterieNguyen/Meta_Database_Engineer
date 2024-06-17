@@ -47,5 +47,8 @@ Advantages of a database schema
 - Accessibility (enable greater accessibility to objects)
 - Security (offer a range of useful security features)
 - Ownership (Permit transfer of ownership between users)
-- 
 
+Relational Model (table relationship)
+- One-to-many
+- One-to-one
+- Many-to-many
