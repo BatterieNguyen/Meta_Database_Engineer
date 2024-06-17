@@ -52,3 +52,24 @@ Relational Model (table relationship)
 - One-to-many
 - One-to-one
 - Many-to-many
+
+Database Normalization - `Process for structuring tables that minimizes challenges facing database systems`
+- Challenges of Noramlization
+  - Insert anomaly - Insertion of one records leads to the insertion of several more required data sets.
+  - Update anomaly - Updating a record in a table column requires further updates in other columns.
+  - Deletion anomaly - Deletion of one record leads to the deletion of several more required    data sets
+- Fundamental normalization forms
+  - First Normal Form (1NF) - enforce data atomicity and eliminate unnecessary repeating groups of data in database tables.
+    - Data atomicity - `Ensuring that there is only one single instance value per column field`
+  - Second Normal Form (2NF) - avoid partial dependency relationships between data
+    - Partial dependency - `A table with a composite primary key`
+    - Functional dependency - `The relationship between 2 attributes in a table`
+  - Thrid Normal Form (3NF) - avoid transitive dependency
+    - Transitive dependency - `A non-key attribute cannot be functionally dependent on another non-key attribute.`
+
+
+
+
+
+
+
