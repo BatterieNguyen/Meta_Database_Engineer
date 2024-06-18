@@ -18,6 +18,7 @@ Two types of version control systems
 - Centralized version
   - contain a server (repository)  and clients 
 - Distributed version
+  - work in an offline state and only connect to a server to push and pull changes.
 
 ### Development Environments
 Whenever businesses releases new features or change needs to verify that the code they do release is not going to cause any issues or bugs, they normally set up multiple environments for different ways to test and verify. A common practice is for teams to have a developer environment, a UAT or QA environment, and a staging environment. The main purpose of this flow is to find any potential issues that may arise due to changes or new features being added to the codebase.
