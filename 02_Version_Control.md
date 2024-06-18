@@ -12,3 +12,5 @@ The benefits of version control
 - Automation
 - Efficiency
 - 
+
+[Version Control Git terminology](02_github_git_cheatsheet.pdf)
