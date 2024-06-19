@@ -1,4 +1,4 @@
-## Module 1 
+## Module 1 - Software Collaboration
 
 Version Control - `A system that records all changes and modifications to files for tracking purposes.`
 - Keep track of changes
@@ -58,4 +58,7 @@ __Vulnerabilities__
 __Reputation__
 
 => Downtime or issues in production is damaging for a company as it does not instill confidence in end users. If something is down or broken it can cause the company to lose potential customers.
+
+-------
+## Module 2 - Command line
 
