@@ -87,7 +87,43 @@ A coding tool that allows the output of one command to be used as the input for 
 
 ### Redirection
 
+#### Standard Input (stdin)
+- Purpose => used for taking input into a program
+- Usage => programs read from stdin to receive data, which can be provided by the user or redirected from a file // another command
 
+```cat > input.txt```
+> This command is to add data into the file input.txt. After inputing data, `Ctrl + D` to end the command.
 
+```cat < input.txt```
+> This command is to display the content inputed.
 
+#### Standard Output (stdout)
+- Purpose => used for sending normal output from a program
+- Usage: programs write their regular output to stdout. This output can be displayed on the screen, redirected t oa file // piped to another command.
+
+```ls -l > output.txt```
+> This command is to save the output of `ls - l` which generates a list of files of current directory with detailed information of each one (permissions, number of links, owner, group, size, and imestamp of the las modification).
+
+#### Standard Error (stderr)
+- Purpose => used for sending error messages and diagnostics from a program
+- Usage => Programs write error message to stderr. This ensures that error messages are visible to the user, even if stdout is directed.
+
+```ls -l /bin/usr > error.txt```
+> This attempt to list the content of the `bin/usr` directory in long format and then, redirects the stdout to `error.txt`
+> If `bin/usr` does not exist, `error.txt` will be created, but it will be empty since `stderr` is not directed and will still be shown in the terminal.
+
+```ls - l /bin/usr 2> error.txt```
+> This attempt to list the content of the `bin/usr` directory in long format and then redirects stderr to `error.txt`.
+> If `bin/usr` does not exist, any error messages (ex. directory not found) will be written to `error.txt`.
+
+```less error.txt```
+> Open `error.txt` and view the contents of `error/txt` interactively.
+
+```ls -l /bin/usr > error_output.txt```
+
+```ls -l /bin/usr > error_output.txt 2>&1```
+> This attempt to list the content of the `bin/usr` directory in long format and then redirect stdout to `error_output.txt`.
+> `2>&1` is to redirect the stderr to the same file descriptor as stdout => ***Both stdout and stderr will be written to `error_output.txt`.
+
+```less error_output.txt```
 
