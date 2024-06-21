@@ -62,3 +62,18 @@ __Reputation__
 -------
 ## Module 2 - Command line
 
+Command | Function
+`mkdir lab` | create directory lab
+`cd lab`    | change to the lab directory
+`touch file1.txt` | create a file named file1.txt
+`mv file1.txt dir1/` | move file1.txt to directory dir1
+`mkdir -p dir2/dir3` | Use `-p` flag to create te parent directories if they do not exist. In this case, it will create the dir2 directory and then create the dir3 directory inside of dir2.
+`mv file2.txt dir2/dir3` | move file 2 to dir3 directory
+`mv file3.txt ../`       | move file3.txt to the lab directory
+`ls -l`                  | list all files and ditectories in current working directory
+`pwd`                    | check the current working directory
+
+
+
+
+
