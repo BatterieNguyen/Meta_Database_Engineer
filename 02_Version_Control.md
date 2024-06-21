@@ -62,6 +62,8 @@ __Reputation__
 -------
 ## Module 2 - Command line
 
+### Command line
+
 Command | Function
 ------- | --------
 `mkdir lab`             | create directory lab
@@ -73,6 +75,17 @@ Command | Function
 `mv file3.txt ../`       | move file3.txt to the lab directory
 `ls -l`                  | list all files and ditectories in current working directory
 `pwd`                    | check the current working directory
+
+### Pipe
+A coding tool that allows the output of one command to be used as the input for a different command
+
+`cat file1.txt`      => return the content in the file1.txt
+`wc file1.txt -w`    => count the words in the file1.txt
+`ls | wc -w`         => count the number of files
+`cat file1.txt | wc -w` => return the word counts in file1.txt 
+`cat file1.txt file2.txt | wc -w => return the total word counts of 2 files
+
+### Redirection
 
 
 
