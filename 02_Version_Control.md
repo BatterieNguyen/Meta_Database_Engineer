@@ -62,7 +62,7 @@ __Reputation__
 -------
 ## Module 2 - Command line
 
-### Command line
+### 1. Command line
 
 Command | Function
 ------- | --------
@@ -76,7 +76,7 @@ Command | Function
 `ls -l`                  | list all files and ditectories in current working directory
 `pwd`                    | check the current working directory
 
-### Pipe
+### 2. Pipe
 A coding tool that allows the output of one command to be used as the input for a different command
 
 `cat file1.txt`      => return the content in the file1.txt
@@ -85,7 +85,7 @@ A coding tool that allows the output of one command to be used as the input for 
 `cat file1.txt | wc -w` => return the word counts in file1.txt 
 `cat file1.txt file2.txt | wc -w => return the total word counts of 2 files
 
-### Redirection
+### 3. Redirection
 
 #### Standard Input (stdin)
 - Purpose => used for taking input into a program
@@ -126,4 +126,8 @@ A coding tool that allows the output of one command to be used as the input for 
 > `2>&1` is to redirect the stderr to the same file descriptor as stdout => ***Both stdout and stderr will be written to `error_output.txt`.
 
 ```less error_output.txt```
+
+### 3. Grep (Global Regular Expression Print)
+It is used for searching across files and folders as well as the contents of files.
+
 
