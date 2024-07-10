@@ -26,10 +26,10 @@ Example - Combine NOT and BETWEEN
 **Note**: it is equivalent to `WHERE supplier_id < 2000 OR supplier_id > 2999;`
 
 `LIKE`
-> * The % wildcard matches zero or more characters.
-> * The _ wildcard matches a single character.
-> * Use ESCAPE clause specifies an escape character other than the default escape character (\).
-> * Use the NOT operator to negate the LIKE operator.
+* The % wildcard matches zero or more characters.
+* The _ wildcard matches a single character.
+* Use ESCAPE clause specifies an escape character other than the default escape character (\).
+* Use the NOT operator to negate the LIKE operator.
 
 Example - Use LIKE with `ESCAPE`
 > * ESCAPE clause is to specify the escape character so that the LIKE operator interprets the wildcard character as a literal character.
