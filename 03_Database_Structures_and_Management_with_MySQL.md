@@ -46,6 +46,13 @@ Example - Use LIKE with `ESCAPE`
   WHERE productCode LIKE '%$_20%' ESCAPE '$';
 ```
 
+## 2. Joining Tables
+
+
+## 3. Grouping Data
+
+
+
 -----
 # Module 2 - Updating databases and working with views
 
