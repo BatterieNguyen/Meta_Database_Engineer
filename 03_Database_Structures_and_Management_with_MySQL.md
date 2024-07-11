@@ -48,6 +48,17 @@ Example - Use LIKE with `ESCAPE`
 
 ## 2. Joining Tables
 
+There are 4 different types of joins supported in MySQL
+* `INNER JOIN `
+  > returns records of data that have matching values in the joined tables
+* `LEFT JOIN`
+  > * returns all common records in a similar way to the INNER JOIN, plus all queried records from the left table regardless of whether there is a match in the right table or not.
+  > * If there are no matching records in the right table, then null values will be inserted for the bookings IDs. 
+* `RIGHT JOIN`
+  > * returns all common records in a similar way to the INNER JOIN, plus all queried records from the right table regardless of whether there is a match in the left table or not.
+  > * If there are no matching records in the left table, then null values will be inserted for the customers full names.
+* SELF_JOIN
+  > get specific information existing in the same table.
 
 ## 3. Grouping Data
 
